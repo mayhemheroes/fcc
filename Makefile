@@ -21,7 +21,7 @@ CONFIG ?= release
 
 CC ?= gcc
 CFLAGS ?= -std=c11
-CFLAGS += -Werror -Wall -Wextra -Wvla -Wstrict-aliasing -Wstrict-overflow=5 -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wmissing-field-initializers -g
+CFLAGS += -Wall -Wextra -Wvla -Wstrict-aliasing -Wstrict-overflow=5 -Wshadow -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wmissing-field-initializers -g
 CFLAGS += -include defaults.h
 
 ifeq ($(STRICT),yes)
