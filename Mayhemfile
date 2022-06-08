@@ -1,6 +1,6 @@
-project: rnshah9/fcc
+project: fcc
 target: fcc
 
 cmds:
-  - cmd: /fcc/bin/release/fcc @@
+  - cmd: /fcc/bin/release/fcc /test.c
     filepath: /test.c
