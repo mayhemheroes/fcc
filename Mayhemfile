@@ -2,5 +2,4 @@ project: fcc
 target: fcc
 
 cmds:
-  - cmd: /fcc/bin/release/fcc /test.c
-    filepath: /test.c
+  - cmd: /fcc @@
