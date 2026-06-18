@@ -1,0 +1,5 @@
+project: fcc
+target: fcc
+
+cmds:
+  - cmd: /fcc @@
